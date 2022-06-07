@@ -72,3 +72,12 @@ ul li:hover::after {
   background: var(--clr);
   filter: brightness(0.9);
 }
+
+ul li a {
+  text-decoration: none;
+  color: #999;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+}
