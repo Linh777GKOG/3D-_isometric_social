@@ -31,4 +31,5 @@ ul li {
 
 ul li:hover {
   transform: translateX(-50px);
+  background: var(--clr);
 }
