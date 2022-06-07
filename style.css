@@ -19,3 +19,16 @@ ul {
   position: relative;
   transform: skewY(-15deg);
 }
+
+ul li {
+  position: relative;
+  list-style: none;
+  width: 120px;
+  background: #3e3f46;
+  padding: 15px;
+  transition: 0.5s;
+}
+
+ul li:hover {
+  transform: translateX(-50px);
+}
