@@ -65,4 +65,10 @@ ul li::after {
   filter: brightness(0.9);
   transform-origin: bottom;
   transform: skewX(45deg);
+  transform: 0.5s;
+}
+
+ul li:hover::after {
+  background: var(--clr);
+  filter: brightness(0.9);
 }
