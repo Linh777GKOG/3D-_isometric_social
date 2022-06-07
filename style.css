@@ -27,6 +27,7 @@ ul li {
   background: #3e3f46;
   padding: 15px;
   transition: 0.5s;
+  z-index: calc(1 * var(--i));
 }
 
 ul li:hover {
@@ -45,4 +46,10 @@ ul li::before {
   filter: brightness(0.7);
   transform-origin: right;
   transform: skewY(45deg);
+  transition: 0.5s;
+}
+
+ul li:hover::before {
+  background: var(--clr);
+  filter: brightness(0.7);
 }
